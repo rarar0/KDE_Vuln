@@ -8,6 +8,6 @@ Getting physical access to a machine is already a job in itself, so having your 
 
 #2: 11 Character Limit on vFAT Label is frustrating.
 
-After some quick research, browsing twitter, reddit, and other forums, I was unable to find a way to bypass this.
+After some quick browsing of twitter, reddit, and other forums, I was unable to find a way to bypass this.
 Current hypothesis on how to circumvent this would be to use fdisk to edit the label as a different type while keeping the filesystem as vFAT.
 Other option would be use NTFS instead, I found one source which said NTFS may have been the original cause of this vuln. (In which case, the label size is much larger)
